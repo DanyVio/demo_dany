@@ -1,0 +1,111 @@
+                       Test Plan
+
+1.Primer campo de Bienvenido
+    -comprobar el texto "Bienvenido" es visible y correcto.
+    -comprobar el texto "Completa tus datos de registro en Kaira Digital" es visible y correcto.
+    -comprobar que al hacer click en el link nos esta redirigiendo a la pagina de Google donde podemos logearnos corectamente.
+    -comprobar el link de "Mas informacion" nos abre un pop-up con 2 opciones->1. continuar sin iniciar sesion 2. iniciar sesion.
+    -hacer click en continuar sin iniciar sesion
+    -hacer click en iniciar sesion.
+    -comprobar la existencia del aviso "*Indica la pregunta obligatoria"
+2.Campo del Nombre
+    a.
+        -comprobar el texto "Nombre" es visible y correcto.
+        -comprobar que el campo del input es visible, contiene el placeholder "Tu respuesta" y al hacer hover nos aparece el siguente mensaje "Please fill out this field."
+        -al intoducir el texto pasamos al siguente campo.
+    b.
+        -hacemos click en el campo
+        -hacemos click en el siguiente campo
+        -comprobar que el mensaje de error es "This is a required question"
+3.Campo del Apellido
+    a.
+        -comprobar el texto "Apellido" es visible y correcto.
+        -comprobar que el campo del input es visible, contiene el placeholder "Tu respuesta" y al hacer hover nos aparece el siguente mensaje "Please fill out this field."
+        -al intoducir el texto pasamos al siguente campo.
+    b.
+        -hacemos click en el campo
+        -hacemos click en el siguiente campo
+        -comprobar que el mensaje de error es "This is a required question"
+4.Campo del E-mail
+    a.
+        -comprobar el texto "Correo electronico" es visible y correcto.
+        -comprobar que el campo del input es visible,  contiene el placeholder "Tu respuesta" y al hacer hover nos aparece el siguente mensaje "Please fill out this field."
+        -introducimos un e-mail correcto.
+    b.
+        -hacemos click en el campo
+        -hacemos click en el siguiente campo
+        -comprobar que el mensaje de error es "This is a required question"
+    c.
+        -introducimos un e-mail erroneo
+        -hacemos click en el siguente campo
+        -comprobar que el mensaje de error es "This is not a valid e-mail address"
+        
+5.Campo de la fecha del nacimiento
+    a.
+        -comprobar el texto "Fecha de nacimiento" es visible y correcto.
+        -comprobar que los prefijos de la fecha son correctos.
+        -al introducir una fecha podemos pasar al siguiente campo.
+    b.
+        -introducir una fecha antigua 
+        -comprobar que el mensaje de error es "Invalid date".
+    c.
+        -introducir una fecha futura
+        -comprobar que el mensaje de error es "Invalid date".
+6.Campo de los idiomas
+    a.
+        -comprobar el texto "Idioma" es visible y correcto.
+        -al hacer click en el campo "choose" a traves del comando{ multiple: true } 
+        -comprobar que todas las opciones de idiomas que tenemos en el desplegable.
+        -elegir una de las opciones
+        -el mensaje de error no es visible
+    b.
+        -hacer click en el campo
+        -hacer click en el siguente campo
+        -comprobar que el mensaje de error es "This is a required question".
+
+7.Campo "Como nos has conocido"
+    -comprobar el texto "Como nos has conocido" es visible y correcto.
+    -marcamos todas las casillas.
+    -combrobamos que las casillas marcadas estan correctamente marcadas.  
+8.Campo "¿Como calificas la integración de la IA en el sector tecnológico?"
+    -comprobar el texto "¿Como calificas la integración de la IA en el sector tecnológico?" es visible y correcto.
+    -seleccionamos un icono
+    -seleccionamos uno de los iconos para ver el funcionamento correcto.
+    -al seleccionar el icono nos aparece un campo para deseleccionar la seleccion previa, al hacer click comprobamos que el icono seleccionado se va ha deseleccionar.
+9.Campo "Digitalización de la logística"
+    a.
+        -comprobar el texto "Digitalización de la logística" es visible y correcto.
+        -comprobar el texto "Innecesario" es visible y correcto.
+        -comprobar el texto "Imprescindible" es visible y correcto.
+        -seleccionar uno de los checkboxes
+        -comprobamos que nos aparece el campo "Clear section".
+        -hacemos click en el campo "Clear section" y comprobamos que funciona correctamente.
+    b.
+        -seleccionamos todos los checkboxes uno por uno
+        -comprobar  que el checkbox corecto esta seleccionado.
+10.Campo "Desarrollo logístico"
+    a.
+        -comprobar el texto "Desarrollo logístico" es visible y correcto.
+        -comprobar el texto "Innecesario" es visible y correcto.
+        -comprobar el texto "Imprescindible" es visible y correcto.
+        -seleccionar uno de los checkboxes
+        -comprobamos que nos aparece el campo "Clear section".
+        -hacemos click en el campo "Clear section" y comprobamos que funciona correctamente.
+    b.
+        -seleccionamos todos los checkboxes uno por uno
+        -comprobar  que el checkbox corecto esta seleccionado.
+11.Campo info
+    -comprobar el texto "Formulario de prueba reservado a Kaira Digital.
+        Este formulario no es concurrente y no se guarda ningún dato con otros fines, ya que su propósito es ejecutar de una prueba tecnológica."
+        es visible y correcto.
+    -comprobar el logo.
+12.Boton limpiar formulario
+    -comprobar que al hacer click nos aparece un pop-up con la option de borrar y cancelar el formulario.
+    -hacer click en cancelar.
+    -hacer click en borrar.
+13.Boton enviar formulario 
+    -comprobamos que el texto del boton es correcto.
+    -hacemos click en el boton para enviar el formulario.
+
+
+
