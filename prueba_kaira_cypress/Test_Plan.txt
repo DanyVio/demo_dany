@@ -7,7 +7,7 @@
     -comprobar el link de "Mas informacion" nos abre un pop-up con 2 opciones->1. continuar sin iniciar sesion 2. iniciar sesion.
     -hacer click en continuar sin iniciar sesion
     -hacer click en iniciar sesion.
-    -comprobar la existencia del aviso "*Indica la pregunta obligatoria"
+    -comprobar la existencia del aviso "Indica la pregunta obligatoria"
 2.Campo del Nombre
     a.
         -comprobar el texto "Nombre" es visible y correcto.
