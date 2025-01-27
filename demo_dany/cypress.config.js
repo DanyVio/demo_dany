@@ -1,8 +1,8 @@
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
-  viewportWidth: 1920,
-  viewportHeight: 1280,
+  viewportWidth: 1380,
+  viewportHeight: 780,
   e2e: {
     setupNodeEvents(on, config) {},
     baseUrl: "https://helosauna.com/",
