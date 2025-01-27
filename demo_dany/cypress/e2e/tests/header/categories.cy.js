@@ -30,5 +30,7 @@ describe("Header", function () {
         .trigger('mouseover')
         .should('be.visible');
     });
+    cy.get('.main-nav__list-item-link--home').should('be.visible').click();
+    cy.url().should('eq', `${config.baseUrl}`);
   });
 });
